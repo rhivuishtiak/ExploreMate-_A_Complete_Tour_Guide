@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-now{
+    width: 500px;
+    height: 700px;
+    padding: 30px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background: #000;
+}
+
+form h2{
+    color: #ecf0f1;
+    padding: 0 0 20px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.input-style input{
+    width: 90%;
+    background: transparent;
+    padding: 3px;
+    border: 2px solid #fb2525;
+    border-radius: 5px;
+    color: #ecf0f1;
+    outline: none;
+    height: 15px;
+    margin-bottom: 10px;
+}
+
+.input-style input:hover{
+    cursor: pointer;
+    border: 2px solid #ffc107;
+}
+
+.input-style label{
+    color: #ecf0f1;
+    margin-bottom: 4px;
+    display: block;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 1px;
+}
+
+.gender p{
+    color: #ecf0f1;
+    margin-top: 4px;
+}
+
+.option{
+    margin-top: 6px;
+}
+
+.option label{
+    color: #ecf0f1;
+    cursor: pointer;
+}
+
+.register-page input{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.register-page input:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
